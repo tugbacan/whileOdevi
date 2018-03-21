@@ -1,0 +1,9 @@
+girilen=""
+while(girilen!="0"):
+    girilen=input("Bir sayı giriniz.Çıkmak için [0]:")
+    if(girilen=="0"):
+        print("Çıkmak istediniz.Program sonlandı.")
+    else:
+      girilen=int(girilen)
+      print("Girdiğiniz sayının 3 ile bölümünden kalanla girilenin toplamı:",girilen%3+girilen)
+        
