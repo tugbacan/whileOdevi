@@ -5,7 +5,7 @@ i=1
 while True:
     satisMiktari=satisMiktari+200
     birimFiyat=birimFiyat+10
-    ciro=satisMiktari*birimFiyat
+    ciro=ciro+(satisMiktari*birimFiyat)
     i=i+1
     if(ciro>500000):
         print(i,"ay sonra")
